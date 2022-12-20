@@ -1,0 +1,1 @@
+cmd_/media/gui-shared/test/encryption.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /media/gui-shared/test/encryption.ko /media/gui-shared/test/encryption.o /media/gui-shared/test/encryption.mod.o;  true
